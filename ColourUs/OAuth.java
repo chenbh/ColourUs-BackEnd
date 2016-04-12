@@ -18,15 +18,15 @@ import twitter4j.conf.ConfigurationBuilder;
  */
 public class OAuth {
 
-    private static final String C_KEY = "q3kkDmb2u4v59Ae5ODJlfhaSM";
-    private static final String C_SECRET = "BthjCVnsPKjwyuTOWXoawMMJLsKPWaLcKcd0tVAe5ypg4IiJlF";
-    private static final String A_TOKEN = "361466701-ksHhDyiIHnFpPEugsSMu4a7QXd602rxcA9i49uRR";
-    private static final String A_SECRET = "xk8Dlmz2DPScK5px4B5V68hM5DrfxMoSuda3XaJvOJq0d";
+    private static final String C_KEY;
+    private static final String C_SECRET;
+    private static final String A_TOKEN;
+    private static final String A_SECRET;
 
-    private static final String C2_KEY = "1I2C6pqaPUUXvSpP7Z1DEfoZV";
-    private static final String C2_SECRET = "xJWhrdUH6rSOy7SKffcdqY1jhlJ3oqZQRzC5DvITXo4lI0wl9W";
-    private static final String A2_TOKEN = "4841062313-xRzht80VeFfSCDg4vaRGSmwYhO7uC1CwcoeTfjM";
-    private static final String A2_SECRET = "ql3T3XB5mfDvTXd8Wrn1d5NpznvjeXAbZhpzqtuGR3XxT";
+    private static final String C2_KEY;
+    private static final String C2_SECRET;
+    private static final String A2_TOKEN;
+    private static final String A2_SECRET;
     
     private Configuration config;
 
